@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url(wp4035445.webp);
+}
+#container{
+    box-sizing: border-box;
+    background-color: #a58401b4;
+    /* border: 0.3rem solid black; */
+    border-radius: 1rem;
+    min-width: 317px;
+    width: 30vw;
+    height: 75vh;
+    margin: auto auto;
+    margin-top: 12.5vh;
+    margin-bottom: 12.5vh;
+    padding: 5vw;
+    /* color: rgb(182, 73, 73); */
+    text-align: center;
+}
+.headings{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.btn{
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    background-color: #362c02b4;
+    border-radius: 0.5rem;
+    color:#f7d85a ;
+    font-weight: bold;
+    border: 0;
+}
+#guess_no{
+    background-color: #f4d86b;
+    color: #000000;
+    font-weight: bold;
+}
+#replay{
+    margin-top: 1rem;
+    background-color: #221c01ee;
+}
+@media(max-width:360px) {
+    #container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+}
